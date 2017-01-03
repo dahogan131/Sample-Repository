@@ -1,0 +1,6 @@
+def user_name(arg1)
+  p "what is your name?"
+  arg1 = gets.chomp
+  p "Hello #{arg1}"
+end
+p user_name("Lia")
